@@ -15,6 +15,7 @@
 .link {
     color: #D0DB97;
     font-size: large;
+    cursor: pointer;
 }
 
 main {
@@ -38,4 +39,42 @@ footer {
 
 .linkedin a {
     padding: 10px;
+}
+
+img {
+    animation: spin 2s infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  .billet {
+    position: absolute;
+    top: -50px;
+    width: 50px;
+    height: 25px;
+    background-image: url('https://www.multi-change.com/ressources/billets_grands/USD-00100-A.jpg');
+    background-size: 100% 100%;
+    animation: tomber 5s linear infinite;
+    
+}
+
+@keyframes tomber {
+    0% {
+        top: 0px;
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        top: 185%;
+        transform: rotate(360deg);
+
+    }
 }
