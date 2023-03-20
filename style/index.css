@@ -1,5 +1,37 @@
 .navbar {
     display: flex;
-    background-color: red;
-    justify-content: space-between;
+    background-color: #181D27;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+
+.logo {
+    object-fit: contain;
+    max-width: 100px;
+}
+
+.link {
+    color: #D0DB97;
+    font-size: large;
+}
+
+main {
+    background-color: #69B578;
+}
+
+
+footer {
+    background-color: #254D32;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.linkedin {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
