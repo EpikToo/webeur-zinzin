@@ -29,6 +29,10 @@ app.get('/weather', async (req, res) => {
     res.sendFile(__dirname + '/public/pages/theophile.html');
   })
 
+  app.get('/florian', (req, res) => {
+    res.sendFile(__dirname + '/public/pages/florian.html');
+  })
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
